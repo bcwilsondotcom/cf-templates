@@ -72,7 +72,7 @@
     "ElasticLoadBalancer" : {
       "Type" : "AWS::ElasticLoadBalancing::LoadBalancer",
       "Properties" : {
-      "subnets" : { "subnet-c2882ca7, subnet-97e812e0, subnet-a05f45e6" },
+      "subnets" : { "subnet-c2882ca7" },
         "Listeners" : [ { "LoadBalancerPort" : "9200", "InstancePort" : "9200", "Protocol" : "HTTP" } ],
         "HealthCheck" : {
           "Target" : "HTTP:9200/",
